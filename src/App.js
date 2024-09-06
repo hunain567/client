@@ -13,7 +13,7 @@ function App() {
             <div className="main-header-three__top-inner">
                 <div className="main-header-three__top-left">
                     <div className="welcome-text-one">
-                        <p><span className="icon-bell"></span> We Will Grow Your Small Business To The Next Level</p>
+                        <p><span className="icon-bell"></span> We Will Elevate Your Agricultural Exports to New Heights</p>
                     </div>
                 </div>
                 <div className="main-header-three__top-right">
@@ -29,7 +29,7 @@ function App() {
                                 <div className="icon">
                                     <span className="icon-email"></span>
                                 </div>
-                                <p><a href="mailto:info@example.com">Support@gmail.com</a></p>
+                                <p><a href="mailto:info@example.com">dragrofarms@gmail.com</a></p>
                             </li>
                         </ul>
                     </div>
@@ -44,7 +44,7 @@ function App() {
             <div className="main-header-three__bottom-inner">
                 <div className="main-header-three__bottom-left">
                     <div className="logo-box-one">
-                        <a href="http://localhost:3000/">
+                        <a href="/">
                             <img src="assets/img/resource/logo-3.png" alt="Company Logo"/>
                         </a>
                     </div>
@@ -59,19 +59,19 @@ function App() {
                             <nav className="menu-nav">
                                 <div className="navbar-wrap main-menu">
                                     <ul className="navigation">
-                                    <li><a href="http://localhost:3000/">Home</a></li>
-                                    <li><a href="http://localhost:3000/">About us</a></li>
-                                    <li><a href="http://localhost:3000/">Our Policies</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">About us</a></li>
+                                    <li><a href="/">Our Policies</a></li>
                                        
                                         
                                         <li className="menu-item-has-children">
-                                            <a href="http://localhost:3000/">Our Bussiness</a>
+                                            <a href="/">Our Bussiness</a>
                                             <ul className="sub-menu">
-                                                <li><a href="http://localhost:3000/">Agriculture</a></li>
-                                                <li><a href="http://localhost:3000/">Import and Export</a></li>
+                                                <li><a href="/">Agriculture</a></li>
+                                                <li><a href="/">Import and Export</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="http://localhost:3000/">Contact us</a></li>
+                                        <li><a href="/">Contact us</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -81,7 +81,7 @@ function App() {
 
                 <div className="main-header-three__bottom-right">
                     <div className="header-btn-box-one">
-                        <a className="thm-btn" href="http://localhost:3000/">
+                        <a className="thm-btn" href="/">
                             <span className="txt">
                                 Contact Us
                                 <i className="icon-next"></i>
@@ -100,7 +100,7 @@ function App() {
             <i className="fas fa-times"></i>
         </div>
         <div className="nav-logo">
-            <a href="http://localhost:3000/">
+            <a href="/">
                 <img src="assets/img/resource/logo-3.png" alt="Company Logo"/>
             </a>
         </div>
@@ -113,11 +113,11 @@ function App() {
         </div>
         <div className="social-links">
             <ul className="clearfix list-wrap">
-                <li><a href="http://localhost:3000/"><i className="fab fa-facebook-f"></i></a></li>
-                <li><a href="http://localhost:3000/"><i className="fab fa-twitter"></i></a></li>
-                <li><a href="http://localhost:3000/"><i className="fab fa-instagram"></i></a></li>
-                <li><a href="http://localhost:3000/"><i className="fab fa-linkedin-in"></i></a></li>
-                <li><a href="http://localhost:3000/"><i className="fab fa-youtube"></i></a></li>
+                <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+                <li><a href="/"><i className="fab fa-instagram"></i></a></li>
+                <li><a href="/"><i className="fab fa-linkedin-in"></i></a></li>
+                <li><a href="/"><i className="fab fa-youtube"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -210,115 +210,135 @@ function App() {
       <div className="sub-title">
         <h4>Featured Services</h4>
       </div>
-      <h2>What We Offer For You</h2>
+      <h2>What We Offer For Your Agricultural Export Needs</h2>
     </div>
+    <div className="featured-services">
+  <div className="container">
     <div className="row">
+      {/* Start Single Service */}
       <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
         <div className="service-three__single">
           <div className="service-three__single-icon">
-            <span className="icon-design-strategy1">
+            <span className="icon-logistics">
               <span className="path1"></span><span className="path2"></span>
             </span>
           </div>
           <div className="service-three__single-content">
             <div className="title">
-              <h3><a href="web-development.html">Design Strategy</a></h3>
+              <h3><a href="/export-logistics.html">Export Logistics Management</a></h3>
             </div>
             <div className="text">
-              <p>All trials are our Pro planed by default you can try out all the features available.</p>
+              <p>Efficient management of logistics to ensure smooth and timely delivery of your agricultural products.</p>
             </div>
           </div>
         </div>
       </div>
+      {/* End Single Service */}
 
+      {/* Start Single Service */}
       <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
         <div className="service-three__single">
           <div className="service-three__single-icon">
-            <span className="icon-web-development2">
-              <span className="path1"></span><span className="path2"></span><span className="path3"></span><span className="path4"></span><span className="path5"></span><span className="path6"></span><span className="path7"></span>
-            </span>
-          </div>
-          <div className="service-three__single-content">
-            <div className="title">
-              <h3><a href="web-development.html">Web Development</a></h3>
-            </div>
-            <div className="text">
-              <p>All trials are our Pro planed by default you can try out all the features available.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <div className="service-three__single">
-          <div className="service-three__single-icon">
-            <span className="icon-digital-marketing">
+            <span className="icon-sourcing">
               <span className="path1"></span><span className="path2"></span><span className="path3"></span>
             </span>
           </div>
           <div className="service-three__single-content">
             <div className="title">
-              <h3><a href="web-development.html">Digital Marketing</a></h3>
+              <h3><a href="/product-sourcing.html">Agricultural Product Sourcing</a></h3>
             </div>
             <div className="text">
-              <p>All trials are our Pro planed by default you can try out all the features available.</p>
+              <p>Connecting you with high-quality agricultural products and reliable suppliers globally.</p>
             </div>
           </div>
         </div>
       </div>
+      {/* End Single Service */}
 
+      {/* Start Single Service */}
+      <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <div className="service-three__single">
+          <div className="service-three__single-icon">
+            <span className="icon-market-research">
+              <span className="path1"></span><span className="path2"></span><span className="path3"></span>
+            </span>
+          </div>
+          <div className="service-three__single-content">
+            <div className="title">
+              <h3><a href="/market-research.html">International Market Research</a></h3>
+            </div>
+            <div className="text">
+              <p>In-depth research to identify market opportunities and trends for your agricultural products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Single Service */}
+
+      {/* Start Single Service */}
       <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
         <div className="service-three__single">
           <div className="service-three__single-icon">
-            <span className="icon-email-marketing">
+            <span className="icon-supply-chain">
               <span className="path1"></span><span className="path2"></span>
             </span>
           </div>
           <div className="service-three__single-content">
             <div className="title">
-              <h3><a href="web-development.html">Email Marketing</a></h3>
+              <h3><a href="/supply-chain.html">Supply Chain Optimization</a></h3>
             </div>
             <div className="text">
-              <p>All trials are our Pro planed by default you can try out all the features available.</p>
+              <p>Optimizing the supply chain to improve efficiency and reduce costs for your agricultural exports.</p>
             </div>
           </div>
         </div>
       </div>
+      {/* End Single Service */}
 
+      {/* Start Single Service */}
       <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
         <div className="service-three__single">
           <div className="service-three__single-icon">
-            <span className="icon-product-development">
+            <span className="icon-customs">
               <span className="path1"></span><span className="path2"></span><span className="path3"></span>
             </span>
           </div>
           <div className="service-three__single-content">
             <div className="title">
-              <h3><a href="web-development.html">Product Development</a></h3>
+              <h3><a href="/customs-assistance.html">Customs Assistance</a></h3>
             </div>
             <div className="text">
-              <p>All trials are our Pro planed by default you can try out all the features available.</p>
+              <p>Expert support for navigating international customs regulations and ensuring smooth export processes.</p>
             </div>
           </div>
         </div>
       </div>
+      {/* End Single Service */}
 
+      {/* Start Single Service */}
       <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
         <div className="service-three__single">
           <div className="service-three__single-icon">
-            <span className="icon-business-strategy"></span>
+            <span className="icon-market-entry">
+              <span className="path1"></span><span className="path2"></span>
+            </span>
           </div>
           <div className="service-three__single-content">
             <div className="title">
-              <h3><a href="web-development.html">Business Strategy</a></h3>
+              <h3><a href="/market-entry.html">Market Entry Strategy</a></h3>
             </div>
             <div className="text">
-              <p>All trials are our Pro planed by default you can try out all the features available.</p>
+              <p>Strategic planning to successfully enter and establish your agricultural products in new international markets.</p>
             </div>
           </div>
         </div>
       </div>
+      {/* End Single Service */}
+      
     </div>
+  </div>
+</div>
+
   </div>
 </section>
 
@@ -347,20 +367,22 @@ function App() {
           </div>
           <div className="text">
             <p>
-            We offer innovative strategies and solutions to seamlessly <br />
-            export your agricultural products worldwide.
+            We provide cutting-edge strategies and solutions to efficiently <br />
+            export your agricultural products across the globe.
             </p>
           </div>
           <div className="about-three__fact-box">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="about-three__fact-single">
+                 {/*
                   <div className="count-outer count-box">
                     <h2 className="odometer" data-count="256">00</h2>
                     <i className="icon-plus-symbol-button"></i>
-                  </div>
+                  </div> 
+                  */}
                   <div className="title">
-                    <h3>Completed Projects</h3>
+                    <h3>Trusted Agricultural Exports</h3>
                   </div>
                   <div className="text">
                     <p>With 100% Satisfaction</p>
@@ -370,15 +392,17 @@ function App() {
 
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="about-three__fact-single">
+                  {/*
                   <div className="count-outer count-box">
                     <h2 className="odometer" data-count="8.9">00</h2>
                     <i className="icon-percentage"></i>
                   </div>
+                  */}
                   <div className="title">
-                    <h3>Company Growth</h3>
+                    <h3>Exporting Freshness Ensuring Quality</h3>
                   </div>
                   <div className="text">
-                    <p>Avg. Every Year</p>
+                    <p>Success Together</p>
                   </div>
                 </div>
               </div>
@@ -425,7 +449,7 @@ function App() {
           <div className="overlay-box text-center">
             <div className="outer-box">
               <div className="count-outer count-box">
-                <h2 className="odometer" data-count="15">00</h2>
+                <h2 className="odometer" data-count="15">10</h2>
                 <i className="icon-plus-symbol-button"></i>
               </div>
               <div className="title">
@@ -469,204 +493,127 @@ function App() {
       </div>
     </section>
 
-
     <footer className="footer-three">
-      {/* Start Footer Main */}
-      <div className="footer-main footer-main__three">
-        <div className="footer-three__shape1">
-          <img src="/assets/img/shape/footer-three__shape1.png" alt="" />
-        </div>
-        <div className="footer-three__shape2">
-          <img src="/assets/img/shape/footer-three__shape2.png" alt="" />
-        </div>
-        <div className="container">
-          {/* Start Footer Main Two Top */}
-          <div className="footer-main__three-top">
-            
-
-            <div className="footer-three__get-quote-form">
-              <div className="title-box">
-                <h2>Get Free Quote</h2>
-                <p>Best solutions for your company</p>
-              </div>
-
-              <form action="https://thememxpro.com/html/diligent/index.html" method="post">
-                <div className="form-group">
-                  <input type="email" name="email" placeholder="Email Address" required />
-                  <button className="submit thm-btn" type="submit">
-                    <span className="txt">Get A Quote</span>
-                  </button>
-                </div>
-              </form>
-            </div>
+  {/* Start Footer Main */}
+  <div className="footer-main footer-main__three">
+    <div className="footer-three__shape1">
+      <img src="/assets/img/shape/footer-three__shape1.png" alt="" />
+    </div>
+    <div className="footer-three__shape2">
+      <img src="/assets/img/shape/footer-three__shape2.png" alt="" />
+    </div>
+    <div className="container">
+      {/* Start Footer Main Two Top */}
+      <div className="footer-main__three-top">
+        <div className="footer-three__get-quote-form">
+          <div className="title-box">
+            <h2>Get Free Quote</h2>
+            <p>Tailored Solutions for Your Export Needs</p>
           </div>
-          {/* End Footer Main Two Top */}
-
-          <div className="footer-main__inner footer-main-two__inner footer-main-three__inner">
-            <div className="row">
-              {/* Start Single Footer Widget */}
-              <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                <div className="single-footer-widget single-footer-widget-style2">
-                  <div className="title">
-                    <h3>Help & Support</h3>
-                  </div>
-                  <div className="single-footer-widget-box single-footer-widget__about single-footer-widget__about--2">
-                    <div className="text">
-                      <p>Need any support? or have any project on your mind?</p>
-                    </div>
-                    <ul className="clearfix">
-                      <li>
-                        <div className="icon">
-                          <span className="icon-pin"></span>
-                        </div>
-                        <p>Circular Road Daska Sialkot</p>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <span className="icon-mail-inbox-app"></span>
-                        </div>
-                        <p><a href="mailto:support@gmail.com">support@gmail.com</a></p>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <span className="icon-phone-call"></span>
-                        </div>
-                        <p><a href="tel:+923275258200">+92 3275258200</a></p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Footer Widget */}
-
-              {/* Start Single Footer Widget */}
-              <div className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                <div className="single-footer-widget single-footer-widget-style2 ml55">
-                  <div className="title">
-                    <h3>Quick Links</h3>
-                  </div>
-                  <div className="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
-                    <ul className="clearfix">
-                      <li><p><a href="about.html">Need a career?</a></p></li>
-                      <li><p><a href="about.html">About Us</a></p></li>
-                      <li><p><a href="web-development.html">Our Services</a></p></li>
-                      <li><p><a href="contact.html">Contact Us</a></p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Footer Widget */}
-
-              {/* Start Single Footer Widget */}
-              <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                <div className="single-footer-widget single-footer-widget-style2 ml50">
-                  <div className="title">
-                    <h3>Our Services</h3>
-                  </div>
-                  <div className="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
-                    <ul className="clearfix">
-                      <li><p><a href="web-development.html">Front End Development</a></p></li>
-                      <li><p><a href="web-development.html">UI/UX Development</a></p></li>
-                      <li><p><a href="web-development.html">Web Development</a></p></li>
-                      <li><p><a href="web-development.html">Web Design Strategy</a></p></li>
-                      <li><p><a href="web-development.html">Digital Marketing</a></p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Footer Widget */}
-
-              {/* Start Single Footer Widget */}
-              <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                <div className="single-footer-widget single-footer-widget-style2">
-                  <div className="title">
-                    <h3>Latest News</h3>
-                  </div>
-                  <div className="single-footer-widget-box single-footer-widget__blog-list single-footer-widget__blog-list-style2">
-                    <ul className="clearfix">
-                      <li>
-                        <div className="img-box">
-                          <img src="/assets/img/footer/footer-two__img1.jpg" alt="Blog Post 1" />
-                          <a href="/"><i className="fa-solid fa-link"></i></a>
-                        </div>
-                        <div className="title-box">
-                          <h5><a href="blog-details.html">Believed in The Strength of the <br /> Creativeness.</a></h5>
-                          <div className="date-box">
-                            <ul className="clearfix">
-                              <li>
-                                <div className="icon">
-                                  <span className="icon-calendar"></span>
-                                </div>
-                                <div className="text">
-                                  <p>28 Nov, 2022</p>
-                                </div>
-                              </li>
-                              <li>
-                                <div className="icon">
-                                  <span className="icon-time"></span>
-                                </div>
-                                <div className="text">
-                                  <p>4 Min Read</p>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="img-box">
-                          <img src="/assets/img/footer/footer-two__img2.jpg" alt="Blog Post 2" />
-                          <a href="/"><i className="fa-solid fa-link"></i></a>
-                        </div>
-                        <div className="title-box">
-                          <h5><a href="blog-details.html">Believed in The Strength of the <br /> Creativeness.</a></h5>
-                          <div className="date-box">
-                            <ul className="clearfix">
-                              <li>
-                                <div className="icon">
-                                  <span className="icon-calendar"></span>
-                                </div>
-                                <div className="text">
-                                  <p>28 Nov, 2022</p>
-                                </div>
-                              </li>
-                              <li>
-                                <div className="icon">
-                                  <span className="icon-time"></span>
-                                </div>
-                                <div className="text">
-                                  <p>4 Min Read</p>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Footer Widget */}
+          <form action="https:/thememxpro.com/html/diligent/index.html" method="post">
+            <div className="form-group">
+              <input type="email" name="email" placeholder="Email Address" required />
+              <button className="submit thm-btn" type="submit">
+                <span className="txt">Get A Quote</span>
+              </button>
             </div>
-          </div>
+          </form>
         </div>
-        {/* End Footer Main */}
-
-        {/* Start Footer Bottom */}
-        <div className="footer-bottom footer-bottom-two footer-bottom-three">
-          <div className="container">
-            <div className="footer-bottom__inner footer-bottom__two-inner footer-bottom__three-inner">
-              <div className="copyright-text text-center">
-                <p>
-                  Copyright © 2024 Doctor's Agro Farms pvt ltd. All Rights Reserved
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End Footer Bottom */}
       </div>
-    </footer>
+      {/* End Footer Main Two Top */}
+
+      <div className="footer-main__inner footer-main-two__inner footer-main-three__inner">
+        <div className="row">
+          {/* Start Single Footer Widget */}
+          <div className="col-xl-4 col-lg-4 col-md-12 wow fadeInUp" data-wow-delay=".1s">
+            <div className="single-footer-widget single-footer-widget-style2">
+              <div className="title">
+                <h3>Help & Support</h3>
+              </div>
+              <div className="single-footer-widget-box single-footer-widget__about single-footer-widget__about--2">
+                <div className="text">
+                  <p>Looking for support or have an <br />agricultural export query?</p>
+                </div>
+                <ul className="clearfix">
+                  <li>
+                    <div className="icon">
+                      <span className="icon-pin"></span>
+                    </div>
+                    <p>Circular Road Daska Sialkot</p>
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <span className="icon-mail-inbox-app"></span>
+                    </div>
+                    <p><a href="mailto:dragrofarms@gmail.com">dragrofarms@gmail.com</a></p>
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <span className="icon-phone-call"></span>
+                    </div>
+                    <p><a href="tel:+923275258200">+92 3275258200</a></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* End Single Footer Widget */}
+
+          {/* Start Single Footer Widget */}
+          <div className="col-xl-4 col-lg-4 col-md-12 wow fadeInUp" data-wow-delay=".2s">
+            <div className="single-footer-widget single-footer-widget-style2">
+              <div className="title">
+                <h3>Quick Links</h3>
+              </div>
+              <div className="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
+                <ul className="clearfix">
+                  <li><p><a href="about.html">About Us</a></p></li>
+                  <li><p><a href="web-development.html">Our Services</a></p></li>
+                  <li><p><a href="contact.html">Contact Us</a></p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* End Single Footer Widget */}
+
+          {/* Start Single Footer Widget */}
+          <div className="col-xl-4 col-lg-4 col-md-12 wow fadeInUp" data-wow-delay=".3s">
+            <div className="single-footer-widget single-footer-widget-style2">
+              <div className="title">
+                <h3>Our Services</h3>
+              </div>
+              <div className="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
+                <ul className="clearfix">
+                  <li><p><a href="/">Export Logistics Management</a></p></li>
+                  <li><p><a href="/">Agricultural Product Sourcing</a></p></li>
+                  <li><p><a href="/">International Market Research</a></p></li>
+                  <li><p><a href="/">Supply Chain Optimization</a></p></li>
+                  <li><p><a href="/">Customs Assistance</a></p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* End Single Footer Widget */}
+        </div>
+      </div>
+    </div>
+    {/* End Footer Main */}
+
+    {/* Start Footer Bottom */}
+    <div className="footer-bottom footer-bottom-two footer-bottom-three">
+      <div className="container">
+        <div className="footer-bottom__inner footer-bottom__two-inner footer-bottom__three-inner">
+          <div className="copyright-text text-center">
+            <p>
+              Copyright © 2024 Doctor's Agro Farms Pvt Ltd. All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* End Footer Bottom */}
+  </div>
+</footer>
 
 
 
