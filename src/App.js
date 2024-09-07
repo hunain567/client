@@ -45,7 +45,7 @@ function App() {
                 <div className="main-header-three__bottom-left">
                     <div className="logo-box-one">
                         <a href="/">
-                            <img src="assets/img/resource/logo-3.png" alt="Company Logo"/>
+                            <img src="assets/img/resource/logo-0.png" alt="Company Logo"/>
                         </a>
                     </div>
                 </div>
